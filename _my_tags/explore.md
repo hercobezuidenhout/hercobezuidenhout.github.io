@@ -1,4 +1,4 @@
 ---
-slug: explor
+slug: explore
 name: Explore
 ---
