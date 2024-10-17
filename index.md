@@ -16,7 +16,7 @@ title: Hello
 ## What I am up to now
 
 - I work at [Entelect](https://entelect.co.za), and I am helping [Capitec](https://capitecbank.co.za) build their mobile app.
-- I am focusing on learning a lot, attending talks and growing my craft in both software dev and business.
+- I am focused on learning right now, attending talks and growing my craft in both software dev and business.
 - I am actively working on my car, a 1986 Nissan Exa.
 - I recently moved to Cape Town, and I enjoy exploring it with my wife.
 - As mentioned, I am embarking on a new journey of exciting projects.
