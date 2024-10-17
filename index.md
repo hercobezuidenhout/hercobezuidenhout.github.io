@@ -27,7 +27,7 @@ As a software engineer, documentation is pretty important to me. I love writing 
 
  > I agree, the term _love_ might be a bit strong but I do actually enjoy it.
  
- To full understand my intention behind this site, go give my [Initial Commit](/posts/initial-commit) a read. While this is a truly living document and I will one day circle back to its purpose, right now, I just plan to use it as a `README` about me and to keep a `CHANGELOG` about my life, my passions, my interests and related things (within boundaries of course, we all know about those sick people on Facebook). 
+ To full understand my intention behind this site, go give my [Initial Commit](/blog/initial-commit) a read. While this is a truly living document and I will one day circle back to its purpose, right now, I just plan to use it as a `README` about me and to keep a `CHANGELOG` about my life, my passions, my interests and related things (within boundaries of course, we all know about those sick people on Facebook). 
 
 ## FAQ
 
