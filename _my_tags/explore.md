@@ -1,4 +1,0 @@
----
-slug: explore
-name: Explore
----

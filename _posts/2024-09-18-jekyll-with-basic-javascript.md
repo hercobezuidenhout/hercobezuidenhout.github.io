@@ -3,15 +3,21 @@ layout: post
 title: Jekyll with basic JavaScript
 date: 2024-09-18
 tags:
-  - explore
+  - playground
 ---
 ## Introduction
 
-Jekyll is a ruby powered tool that lets you build static websites. However, you can still add JavaScript to these websites, which let’s me think it can be more powerful than we imagine.
+I recently discovered Jekyll, a ruby powered tool that lets you build static websites. Intrigued by the new tool (new for me at least) and what it can do, I started to play around. One thing I wondered is how much can I achieve with JavaScript. The main question being, with Jekyll websites being static and all, is can you make it somewhat dynamic using JavaScript and if yes, should you?
 
-The following article contains a bunch of ramble from me where I explore the boundaries of JavaScript with Jekyll. There is a 10% chance that it helps you, and a 90% chance that you get to the end and think to yourself “Wow, I could have been scrolling through TikTok now”.
+The following article contains a bunch of ramble from me where I play around with some JavaScript concepts and test the boundaries of JavaScript with Jekyll. There is a 10% chance that it helps you, and a 90% chance that you get to the end and think to yourself “Wow, I could have been scrolling through TikTok now”.
 
 Either way, enjoy the read.
+
+## Disclaimer
+
+As long as Jekyll allows you to add a `<script/>` tag to a page, chances are that you will be able to do 99% of JavaScript related things like manipulating the DOM, making API calls and interacting with Web APIs like Notification and Geolocation.
+
+This article is not necessarily me checking if I can, but more me playing around with it in Jekyll.
 
 ## Getting started
 
@@ -45,7 +51,7 @@ Upon refreshing the page, we see ***Some random footer*** rendering. Next up, is
 
 ```html
 <script>
-	console.log('hello world')
+	console.log("Hello World")
 </script>
 ```
 
@@ -53,23 +59,24 @@ Now when we refresh the page. We see *Hello World* printed in the console.
 
 ## Understanding the Jekyll lifecycle
 
-Calling it a lifecycle is a bit optimistic, since Jekyll is a static website generator so it does not have cool tech like state management and app lifecycle. However, what I do want to find out is whether our `console.log('hello world')` will be triggered each time you navigate to a new page or each time a new page loads.
-
-Simply navigating to pages does not verify whether it does or not. I want to say that it does, however, the page reloads each time. So I am going to implement some `localStorage` magic just to make sure.
+Jekyll is a static website generator so it does not have cool tech like state management and app lifecycle. This means that our JavaScript in the `footer.html` file will be triggered each time you navigate to a new page. So I am going to implement some `localStorage` magic just to illustrate this.
 
 ```html
 <script>
 	console.log('hello world')
+	
 	var count = localStorage.getItem('count')
 	console.info('count', count)
+	
 	count++
+	
 	localStorage.setItem('count', count)
 </script>
 ```
 
 Now when navigating between pages, you will notice that the count increases. This confirms two things:
 
-1. We can use `localStorage` (and possibly `sessionStorage`) which is powerful.
+1. We can use `localStorage` (and `sessionStorage`) which is powerful.
 2. The footer renders each time you navigate, so it will also trigger the code each time you navigate.
 
 This only means that if you want code to only execute once, you will need to make use of some `sessionStorage` magic or place that code in the file you want it to execute in. Placing code in one of the files that lives within the `_includes` or `_layouts` folders will possibly cause the piece of code to execute, not only more than once, but in some cases uncontrolled.
@@ -81,6 +88,7 @@ Let’s update the code now to make use of `sessionStorage` to increment count o
 ```html
 <script>
 console.log('hello world')
+
 var count = localStorage.getItem('count')
 console.info('count', count)
 
@@ -94,7 +102,7 @@ if (!hasIncrementedThisSession) {
 
 ## Manipulating the DOM
 
-JavaScript can do so much more than just log things to the console. One the things it is most famous for is manipulating the DOM. Changing HTML elements! So let’s see if we can do that. Right now, the footer is pretty boring.
+JavaScript can do so much more than just log things to the console. One the things it is most famous for is manipulating the DOM. Changing HTML elements! So let’s see how we can do that. Right now, the footer is pretty boring.
 
 ```html
 <div>
@@ -119,7 +127,7 @@ Let’s update it to be a bit more *footery*.
 
 It is not much, but it is honest work. This just gives us some toys to play with using JavaScript. First things first, layout. This renders underneath each other. Ideally, we would like the `innerContainer` class to have a `display: flex` to it.
 
-> While I fully understand that this can be achieved using `CSS`, the whole purpose of this article is to see how powerful Jekyll can be with JavaScript and we are specifically trying to manipulate the DOM here.
+> While I fully understand that this can be achieved using `CSS`, the whole purpose of this article is to see how Jekyll can be used with JavaScript and we are specifically trying to manipulate the DOM here.
 
 Let’s write some JavaScript to update its display.
 
@@ -164,7 +172,7 @@ button.addEventListener('click', function (event) {
 
 ## API Calls
 
-This is where we start to push the limits. Manipulating the DOM, and handling click events is one thing, but using JavaScript to make API calls to a backend server, that would be awesome! First, let’s find some mock API we can call.
+This is where things start to get fun. Manipulating the DOM, and handling click events is one thing, but using JavaScript to make API calls to a backend server, that would be awesome! First, let’s find some mock API we can call.
 
 We will be using this [Sample API](https://api.sampleapis.com), more specifically, their [Beers](https://api.sampleapis.com/beers/ale) endpoint.
 
@@ -277,41 +285,15 @@ fetch("{{ site.beers.api }}")
 	});
 ```
 
-Now to check out the `geolocation` API as well. Lets add our last button for a user to get their geolocation.
-
-```html
-<button id="locationButton">Find Me!</button>
-```
-
-Lastly, let’s add some geolocation code.
-
-```js
-var locationButton = document.getElementById('locationButton')
-
-locationButton.addEventListener('click', function () {
-	function success(position) {
-		console.log(position)
-	}
-
-	function error() {
-		console.error('No geolocation')
-	}
-
-	navigator.geolocation.getCurrentPosition(success, error);
-})
-```
-
-At first it didn’t work, but then I realised that I was on Safari. When testing it on Chrome, it worked perfectly.
-
 ## Considerations & Limitations
 
-- Since Jekyll reloads with each page, having something like notifications is a bit tricky since open a socket to a web server or even using Server Sent Events won’t work as good. It will reconnect each time you navigate to a page. Now service-workers can be a fix here.
-- Since you can add a script tag to any Jekyll website, and the JavaScript is executed in the browser, the possibilities are near endless. The only limitation would be when the JavaScript is executed and how frequently it is executed. In my opinion, this can be somewhat controlled by decided where you put the script tag and by making use of some `localStorage` vs `sessionStorage`.
-- I have been trying to think where you would actually use JavaScript within a Jekyll site, and in my opinion, you might be able to implement features like newsletters, memberships and perhaps a simple e-commerce solution.
+- Since Jekyll reloads with each page, having something like notifications is a bit tricky since opening a socket to a web server or even using Server Sent Events won’t work as good. It will reconnect each time you navigate to a page. Now service workers can be a fix here.
+- Since you can add a script tag to any Jekyll website, and the JavaScript is executed in the browser, the possibilities are near endless. The only limitation would be when the JavaScript is executed and how frequently it is executed. In my opinion, this can be somewhat controlled by deciding where you put the script tag and by making use of some `localStorage` vs `sessionStorage`.
+- I have been trying to think where you would actually use JavaScript within a Jekyll site, and in my opinion, you might be able to implement features like newsletters, memberships and perhaps a simple e-commerce solution. However, controlling access to the website is a bit more complicated because all of the data is already on the page (hence the term *static website*) and the user can bypass most frontend guards through the developer console.
 
 ## Conclusion
 
-This was a very basic JavaScript article with Jekyll. To be honest, I was just exploring a bit and playing around. But, it is nice to think that there is potential. However, I would not recommend building a really complex JavaScript frontend using Jekyll since there are better frameworks out there. If you really want to though, it seems like you 100% can :). It will not be a single-page app though and that is okay.
+This was a very basic JavaScript article with Jekyll. To be honest, I was just exploring a bit and playing around. But, it is nice to think that there is potential. However, I would not recommend building a really complex JavaScript frontend using Jekyll since there are better frameworks out there. If you really want to though, it seems like you 100% can 💪. It will not be a single-page app though and that is okay.
 
 Through JavaScript, you can bring some dynamic features to the static website created by Jekyll.
 
