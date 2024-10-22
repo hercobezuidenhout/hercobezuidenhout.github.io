@@ -138,11 +138,12 @@ hr {
 
 img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
 code {
     font-family: monospace;
-    padding: 2px;
+    padding: 2px 4px;
     background-color: #f2f2f2;
     color: #222;
     border-radius: 3px;
@@ -153,7 +154,7 @@ code {
     padding: 1px 10px;
     background-color: #f2f2f2;
     color: #222;
-    border-radius: 3px;
+    border-radius: 8px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     overflow: auto;
