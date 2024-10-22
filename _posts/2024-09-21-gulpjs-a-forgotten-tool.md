@@ -7,12 +7,12 @@ tags:
 ---
 
 ## TL;DR
----
+
 - Gulp is a task runner that automates repetitive development tasks in your workflow. 
 - Gulp uses _code-over-configuration_ approach, which means that you write JavaScript code to define tasks.
 
 ## Get Started
----
+
 > [!tip] Prerequisites
 > You need to have the latest `npm` & `node` versions installed. If not, check out [this link](https://nodejs.org/en/).
 
@@ -21,7 +21,7 @@ The magic behind `gulp` is the fact that it let's you create workflows that can 
 > I will be honest, I have not come across a scenario where I thought to myself "wow I wish I had a tool that executed a series of steps in JavaScript before deploying", but it would seem that if I had, Gulp would be that tool.
 
 ### Installation
----
+
 > [!info] If you have not yet set up your project, you can create an empty project by running `npm init -y` in a folder of your choice.
 
 To add `gulp` to your project, install it using `npm install --save-dev gulp`.
@@ -43,7 +43,7 @@ npm notice
 ```
 
 ### Gulpfile
----
+
 I am not entirely sure how important this file is, but its name is `gulpfile.js`, and my spidy senses tell me it is pretty important. According to the [Get Started](https://gulpjs.com/docs/en/getting-started/quick-start#create-a-gulpfile) doc, you want to add this file to the root of your project.
 
 ```diff
@@ -65,7 +65,7 @@ exports.default = defaultTask
 ```
 
 ### Test it
----
+
 The last piece to this weird puzzle is testing it. To test it, you can run `gulp` if you installed `gulp` globally. In our case, we installed `gulp` locally for this project only. So let's add a new script to our `package.json`. 
 
 ```diff
@@ -93,15 +93,15 @@ HercoBezuidenhout@Mac gulp-demo % npm run gulp
 Now that you have `gulp` set up in your project, you might be wondering what you can do with it. That is our next chapter :). 
 
 ## What to do with it
----
-!["GulpMeme"](assets/posts/GulpMeme.png)
+
+!["GulpMeme"](/assets/posts/GulpMeme.png)
 
 `Gulp` is designed to help automate tasks within your project. So to answer the question of "what to do with it", we first need to ask "what do we do receptively in our project?". 
 
 > You can run multiple tasks with `gulp <task> <othertask>`.
 
 ### Tasks
----
+
 Each `gulp` task is an asynchronous JavaScript function. Tasks can also be either **public** or **private** by simply choosing what and what not to export.
 
 ```js
@@ -182,7 +182,7 @@ build 🛠️ building something here
 ```
 
 ### Series vs Parallel tasks
----
+
 In the above example, we used the `series` function to execute our **private** task with our **public** task, `clean` and `build`. However, `gulp` offers another function called `parallel()`. 
 
 Both `series` and `parallel` lets you execute multiple tasks as part of one operation. An _operation_ in this context is an `npm` call for example `npm run gulp` or `npm run gulp build`.
@@ -204,14 +204,14 @@ export.build = series(
 ```
 
 ## It's 2024, what about TypeScript
----
+
 `gulpfiles` can be written in a language that requires transpilation, such as TypeScript or Babel by changing the extension to `.ts` or `.babel.js`. You need to install the proper modules though.
 
 1. TypeScript - `ts-node`.
 2. Babel - `@babel/register`.
 
 ## What's Next?
----
+
 I am not too sure what is next. GulpJS is a really cool tool, however, you barely read about it on the internet. I am sure some of the more experienced developers out there have worked with it before, but with all of the new libraries coming out it feels like Gulp here has disappeared into the crowd.
 
 When researching, I found many articles and posts stating that it is deprecated or not being maintained anymore, however, if you visit the Github repo you will notice the last release was in March 2024, which is not that "old" compared to other "old" tools. 
