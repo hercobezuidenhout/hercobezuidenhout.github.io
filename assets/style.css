@@ -160,9 +160,11 @@ code {
 }
 
 blockquote {
-    border-left: 1px solid #999;
+    border-left: 2px solid #004052;
     color: #222;
     font-style: italic;
+    margin: auto;
+    padding-left: 1rem;
 }
 
 footer {
@@ -298,15 +300,16 @@ ul.discover-posts li small a {
     }
 
     code {
-        background-color: #267085;
+        background-color: #004052;
     }
 
     .highlight {
-        background-color: #267085;
+        background-color: #004052;
     }
 
     pre code {
         color: #ddd;
+        background-color: transparent;
     }
 
     blockquote {

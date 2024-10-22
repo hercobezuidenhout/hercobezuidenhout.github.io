@@ -13,7 +13,8 @@ tags:
 
 ## Get Started
 
-> [!tip] Prerequisites
+> ☝️ Prerequisites
+>
 > You need to have the latest `npm` & `node` versions installed. If not, check out [this link](https://nodejs.org/en/).
 
 The magic behind `gulp` is the fact that it let's you create workflows that can run code that is unrelated to your project. While tools like [Webpack](https://webpack.js.org) and [Vite](https://vite.dev) are great for bundling and building code, they lack the ability to execute step in a pipeline. 
@@ -22,7 +23,7 @@ The magic behind `gulp` is the fact that it let's you create workflows that can 
 
 ### Installation
 
-> [!info] If you have not yet set up your project, you can create an empty project by running `npm init -y` in a folder of your choice.
+> If you have not yet set up your project, you can create an empty project by running `npm init -y` in a folder of your choice.
 
 To add `gulp` to your project, install it using `npm install --save-dev gulp`.
 
