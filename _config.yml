@@ -31,14 +31,14 @@ compress_html:
 #   style:    compressed
 
 collections:
-  my_tags:
+  tags:
     output: true
     permalink: /tagged/:slug/
 defaults:
   -
     scope:
       path: ""
-      type: my_tags
+      type: tags
     values:
       layout: tagged
 
