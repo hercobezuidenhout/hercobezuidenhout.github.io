@@ -19,4 +19,4 @@ I will be listing my projects down below and also documenting the journey of bui
 
 ## Contact Me
 
-I can easily be reached through my email herco.bezuidenhout@gmail.com.
+I can easily be reached through my email [herco.bezuidenhout@gmail.com](mailto:herco.bezuidenhout@gmail.com).
