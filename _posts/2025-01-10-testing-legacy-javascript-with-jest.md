@@ -2,8 +2,7 @@
 layout: post
 title: Testing Legacy JavaScript with Jest
 date: 2025-09-17
-tags:
-  - general
+tags: [general]
 ---
 
 I recently came across a project where I wanted to add some unit tests to it, but it was not using modules. At least, not in the modern way I am used to. To give you an idea of what I was working with, a JavaScript file would look something like this:
