@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testing Legacy JavaScript with Jest"
-date: 2025-09-17
+date: 2025-09-10
 tags: [general]
 ---
 
