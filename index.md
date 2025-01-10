@@ -11,7 +11,6 @@ I am a software engineer & husband. I enjoy building apps that solve some cool p
 - I work at [Entelect](https://entelect.co.za), and I am helping [Capitec](https://capitecbank.co.za) build their mobile app.
 - I am actively working on cool projects, personal and private projects.
 - I recently moved to Cape Town and enjoy exploring it with my wife.
-- I embarked on an exciting writing journey, starting with this website.
 
 ## Projects
 
