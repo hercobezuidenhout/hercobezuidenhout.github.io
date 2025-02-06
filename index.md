@@ -14,7 +14,7 @@ I am a software engineer & husband. I enjoy building apps that solve some cool p
 
 ## Projects
 
-I will be listing my projects down below and also documenting the journey of building them.
+- **[LaunchWeek](https://launchweek.co.za)** - A weekly newsletter that shares latest launches and feature releases of South African developers.
 
 ## Contact Me
 
