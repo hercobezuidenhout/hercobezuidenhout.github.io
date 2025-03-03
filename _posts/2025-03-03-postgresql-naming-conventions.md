@@ -137,17 +137,3 @@ CREATE TABLE user_role_mapping (  -- Too verbose ❌
     role_id UUID REFERENCES roles(id)
 );
 ```
-
----
-
-### **Summary of Best Practices**
-| Entity       | Naming Rule                         | Example |
-|-------------|-------------------------------------|---------|
-| Tables      | snake_case, plural                  | `users`, `orders` |
-| Columns     | snake_case, short & meaningful      | `user_id`, `created_at` |
-| Primary Key | Always `id`                         | `id UUID PRIMARY KEY` |
-| Foreign Key | `{related_table}_id`                | `user_id UUID REFERENCES users(id)` |
-| Indexes     | `idx_{table}_{column}`              | `idx_users_email` |
-| Constraints | Prefix with `chk_`, `fk_`, `df_`    | `chk_users_email` |
-
-Would you like help designing your table schema with these conventions? 🚀
