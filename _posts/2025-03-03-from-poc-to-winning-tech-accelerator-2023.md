@@ -25,8 +25,6 @@ Doinfine also includes a "fine" feature.
 
 ### 2022 - Launch
 
-> [✨Doinfine POC](https://github.com/hercobezuidenhout/doinfine-poc)
-
 Doinfine launched for the first time in 2022 and onboarded its first team. A couple months later, it had 3 teams using it. This version of Doinfine was later dubbed as the POC (Proof of Concept).
 
 #### Team
@@ -41,11 +39,11 @@ Doinfine enrolled and won [Entelect's Tech Accelerator](https://businesstech.co.
 
 #### Team
 
-- Ben Kotze | Software Engineer
-- Keane Burgers | Software Engineer
-- Emile Fourie | UX Engineer
-- Jarred Fourie | UX Engineer
-- Herco Bezuidenhout | Software Engineer
+- Ben Kotze 👉 Software Engineer
+- Keane Burgers 👉 Software Engineer
+- Emile Fourie 👉 UX Engineer
+- Jarred Fourie 👉 UX Engineer
+- Herco Bezuidenhout 👉 Software Engineer
 
 ### 2024 - Becoming Market Fit
 
@@ -54,9 +52,9 @@ iterations of improving, perfecting and ultimately trying to figure out what peo
 
 #### Team
 
-- Ben Kotze | Software Engineer
-- Jarred Fourie | UX Engineer
-- Herco Bezuidenhout | Software Engineer
+- Ben Kotze 👉 Software Engineer
+- Jarred Fourie 👉 UX Engineer
+- Herco Bezuidenhout 👉 Software Engineer
 
 ### 2025 and onward - Sunset
 
