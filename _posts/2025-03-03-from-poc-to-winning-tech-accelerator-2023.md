@@ -5,8 +5,6 @@ date: 2025-03-03
 tags: [project]
 ---
 
-# 👌Doinfine
-
 ## Source Code
 
 The Doinfine repo will be reused for the new codebase, built from the ground up. However, many talented people helped contribute to this code and I want
@@ -29,7 +27,7 @@ Doinfine launched for the first time in 2022 and onboarded its first team. A cou
 
 #### Team
 
-- Herco Bezuidenhout | Software Engineer
+- Herco Bezuidenhout 👉 Software Engineer
 
 ### 2023 - Entelect Tech Accelerator
 
