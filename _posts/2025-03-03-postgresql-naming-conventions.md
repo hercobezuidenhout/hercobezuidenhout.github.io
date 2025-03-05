@@ -2,7 +2,7 @@
 layout: post
 title: "PostgreSQL Naming Conventions"
 date: 2025-03-03
-tags: [standards]
+tags: [learning]
 ---
 
 In PostgreSQL, naming conventions follow best practices to improve readability, maintainability, and consistency. Here are the key guidelines:

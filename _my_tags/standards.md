@@ -1,4 +1,0 @@
----
-slug: standards
-name: Standards
----
