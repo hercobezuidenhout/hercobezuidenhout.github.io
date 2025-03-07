@@ -1,3 +1,10 @@
+---
+layout: post
+title: Resume
+description: My resume
+permalink: /resume
+---
+
 **HERCO BEZUIDENHOUT**  
 
 Cape Town, South Africa  
