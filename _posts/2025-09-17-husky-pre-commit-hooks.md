@@ -10,9 +10,6 @@ tags:
 description: Add a short description for the new post
 pin: false
 ---
-
-## Husky - Working with pre-commit hooks
-
 The other day, I tried pushing a commit but my commit failed. When expecting the logs, I found something like this:
 
 ```bash
