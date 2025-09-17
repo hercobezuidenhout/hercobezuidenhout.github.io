@@ -33,4 +33,10 @@ Let's dive straight into it.
 
 ### What is Husky really?
 
-Some text here
+Husky is a Git-hook manager for Node projects. It let's you easily manage Git hooks like `pre-commit` and `pre-push` in a Node.js project with an `npm` package.
+
+It is important to note that Git hooks is not something husky invented. Git hooks is a feature provided by git. They are scripts which git automatically runs after a specific event.
+
+By default, Git creates these hooks inside `.git/hooks` but they are disabled and not version controlled. They only live on your local machine.
+
+So with Husky, it is easy to configure, share and version-control Git hooks. 
