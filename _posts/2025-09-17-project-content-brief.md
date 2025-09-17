@@ -1,5 +1,5 @@
 ---
-title: [Project] Content Brief
+title: Content Project Brief
 date: 2025-09-17 21:29:00 +0200
 categories: [Projects, Briefs]
 tags: []
