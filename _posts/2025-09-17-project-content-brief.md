@@ -2,7 +2,7 @@
 title: Content Project Brief
 date: 2025-09-17 21:29:00 +0200
 categories: [Projects, Briefs]
-tags: []
+tags: [ai, content]
 description: Automate your workflow: write in Notion, publish to your Jekyll blog, and generate AI-powered social posts—all in one system.
 ---
 
