@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-04-28-first-laravel-app.md",
+                "file": "_drafts/lets-try-that-again-quickly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-04-28-first-laravel-app"
+              "title": "lets-try-that-again-quickly"
             }
           }
         ]
@@ -73,13 +73,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "72646e35c2509a68",
+            "type": "leaf",
+            "state": {
+              "type": "jekyll-blog-view",
+              "state": {},
+              "icon": "newspaper",
+              "title": "Jekyll Blog Manager"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "793169125b3316c1",
@@ -151,30 +161,40 @@
               "icon": "lucide-list",
               "title": "Outline of index"
             }
+          },
+          {
+            "id": "cd3d28aca4461912",
+            "type": "leaf",
+            "state": {
+              "type": "jekyll-properties-view",
+              "state": {},
+              "icon": "settings",
+              "title": "Post Properties"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "jekyll-blog-manager:Jekyll Blog Manager": false
     }
   },
   "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
-    "_templates/Post.md",
     "_posts/2026-04-28-first-laravel-app.md",
+    "_drafts/lets-try-that-again-quickly.md",
+    "_drafts/this-is-a-quick-test.md",
+    "_drafts",
     "_posts/2025-10-11-welcome-to-jekyll.md",
+    "_templates/Post.md",
     "_templates",
     "about.md",
     "index.md"
