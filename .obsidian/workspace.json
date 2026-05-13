@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-05-13-first-laravel-app.md",
+                "file": "_drafts/first-laravel-app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-13-first-laravel-app"
+              "title": "first-laravel-app"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "cd3d28aca4461912",
   "lastOpenFiles": [
     "_drafts/lets-try-that-again-quickly.md",
-    "_posts/2026-05-13-first-laravel-app.md",
+    "_drafts/first-laravel-app.md",
     "_drafts/this-is-a-quick-test.md",
     "_drafts",
     "_posts/2025-10-11-welcome-to-jekyll.md",
