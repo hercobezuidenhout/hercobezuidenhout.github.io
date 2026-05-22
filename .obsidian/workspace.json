@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/first-laravel-app.md",
+                "file": "_drafts/lets-try-that-again-quickly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first-laravel-app"
+              "title": "lets-try-that-again-quickly"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "72646e35c2509a68",
+            "id": "f8da2a91286118e5",
             "type": "leaf",
             "state": {
               "type": "jekyll-blog-view",
@@ -153,17 +153,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "_drafts/lets-try-that-again-quickly.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of lets-try-that-again-quickly"
             }
           },
           {
-            "id": "cd3d28aca4461912",
+            "id": "251b277d88fb76b0",
             "type": "leaf",
             "state": {
               "type": "jekyll-properties-view",
@@ -187,10 +187,10 @@
       "jekyll-blog-manager:Jekyll Blog Manager": false
     }
   },
-  "active": "cd3d28aca4461912",
+  "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
-    "_drafts/lets-try-that-again-quickly.md",
     "_drafts/first-laravel-app.md",
+    "_drafts/lets-try-that-again-quickly.md",
     "_drafts/this-is-a-quick-test.md",
     "_drafts",
     "_posts/2025-10-11-welcome-to-jekyll.md",
