@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-05-22-lets-try-that-again-quickly.md",
+                "file": "_posts/2025-10-11-welcome-to-jekyll.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-22-lets-try-that-again-quickly"
+              "title": "2025-10-11-welcome-to-jekyll"
             }
           }
         ]
@@ -75,7 +75,7 @@
             }
           },
           {
-            "id": "f8da2a91286118e5",
+            "id": "645b9f8a5c2e7cea",
             "type": "leaf",
             "state": {
               "type": "jekyll-blog-view",
@@ -153,17 +153,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2026-05-22-lets-try-that-again-quickly.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-05-22-lets-try-that-again-quickly"
+              "title": "Outline of index"
             }
           },
           {
-            "id": "251b277d88fb76b0",
+            "id": "f3fd52b112ca989a",
             "type": "leaf",
             "state": {
               "type": "jekyll-properties-view",
@@ -184,14 +184,15 @@
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "jekyll-blog-manager:Jekyll Blog Manager": false
+      "obsidian42-brat:BRAT": false,
+      "jequill:Jekyll Blog Manager": false
     }
   },
-  "active": "251b277d88fb76b0",
+  "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
+    "_posts/2026-04-28-first-laravel-app.md",
+    "_drafts/lets-try-that-again-quickly.md",
     "_drafts/first-laravel-app.md",
-    "_posts/2026-05-22-lets-try-that-again-quickly.md",
-    "_drafts/this-is-a-quick-test.md",
     "_drafts",
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_templates/Post.md",
