@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-05-23-Hello World.md",
+                "file": "_drafts/Hello World.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-23-Hello World"
+              "title": "Hello World"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "f3fd52b112ca989a",
   "lastOpenFiles": [
     "_drafts/first-laravel-app.md",
-    "_posts/2026-05-23-Hello World.md",
+    "_drafts/Hello World.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_posts/2026-04-28-first-laravel-app.md",
     "_drafts",
