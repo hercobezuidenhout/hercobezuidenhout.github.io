@@ -75,3 +75,5 @@ Well as I take the last sip of my tea, I want to welcome you. Thank you for maki
 My email is somewhere on this site.
 
 Cheers.
+
+P.s. I am leaving the default post by Jekyll in this blog. Why? I don't really know. Just feel like it.
