@@ -20,9 +20,7 @@ I enjoy writing - and reading - which is why I am excited about my new writing p
 
 This blog.
 
----
-
-## Blogs...
+## Thoughts on blogs
 
 I do feel that blogs are a bit out of fashion these days. Most people opt-in for short form media on platforms like TikTok, Instagram Reels ad YouTube shorts. I don't have the personality, nor the time, nor the care to write, film and edit a short form video.
 
@@ -37,3 +35,8 @@ I have opted for a Jekyll website. Why? A couple reasons:
 In terms of the actual writing, I use Obsidian. Obsidian is a great tool to write markdown files. The editor itself seemed a bit, too technical for me. I really want to embody the writer persona. Make a cup of tea, put on my glasses and type away at my typewriter.
 
 So I built an Obsidian plugin that transforms my Obsidian into a *writer friendly* app.
+
+## So about AI
+
+I probably spent a good 15 minutes writing a piece on AI but I decided to `CTRL + Z` on that one for now.
+
