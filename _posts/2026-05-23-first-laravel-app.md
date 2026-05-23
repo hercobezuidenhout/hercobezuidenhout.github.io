@@ -142,3 +142,13 @@ Well, AI is forcing itself into every corner of my laptop screen and it seems th
 The clean stack for Artisans and agents
 
 ***Disgusting.***
+
+## Last sip of tea
+
+There is a lot more that I can do with Laravel and I look forward to building my first project in Laravel. I plan to build something inspired by [GoodBudget](https://goodbudget.com/).
+
+The only question I have left is, how feasible is a shared-linux server on [Xneelo](https://xneelo.co.za/) for a Laravel project?
+
+I will probably host it locally and expose it through Cloudflare Tunnels.
+
+Anyway, cheers!
