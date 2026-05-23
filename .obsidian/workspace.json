@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-05-22-This is awesome yeah.md",
+                "file": "_drafts/Hello World.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-22-This is awesome yeah"
+              "title": "Hello World"
             }
           }
         ]
@@ -181,19 +181,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "jekyll-blog-manager:Jekyll Blog Manager": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": false,
-      "jequill:Jekyll Blog Manager": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f3fd52b112ca989a",
+  "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
     "_drafts/first-laravel-app.md",
+    "_drafts/Hello World.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_posts/2026-04-28-first-laravel-app.md",
-    "_posts/2026-05-22-This is awesome yeah.md",
     "_drafts",
     "_templates/Post.md",
     "_templates",
