@@ -33,5 +33,5 @@ I have opted for a Jekyll website. Why? A couple reasons:
 3. It is not a NodeJS project - I am somewhat tired of NodeJS projects.
 
 In terms of the actual writing, I use Obsidian. Obsidian is a great tool to write markdown files. The editor itself seemed a bit, too technical for me. I really want to embody the writer persona. Make a cup of tea, but on my glasses and type away at my typewriter.
-
+ll
 So I built an Obsidian plugin that transforms my Obsidian into a *writer friendly* app.
