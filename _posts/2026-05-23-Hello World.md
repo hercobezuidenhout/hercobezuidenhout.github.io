@@ -1,5 +1,5 @@
 ---
-title: This is awesome yeah
+title: Hello World
 date: 2026-05-12
 categories: []
 tags: []
@@ -22,6 +22,8 @@ This blog.
 
 ---
 
+## Blogs...
+
 I do feel that blogs are a bit out of fashion these days. Most people opt-in for short form media on platforms like TikTok, Instagram Reels ad YouTube shorts. I don't have the personality, nor the time, nor the care to write, film and edit a short form video.
 
 The tech I am using for this blog is also a bit *outdated*.
@@ -32,6 +34,6 @@ I have opted for a Jekyll website. Why? A couple reasons:
 2. It uses markdown which I fully enjoy.
 3. It is not a NodeJS project - I am somewhat tired of NodeJS projects.
 
-In terms of the actual writing, I use Obsidian. Obsidian is a great tool to write markdown files. The editor itself seemed a bit, too technical for me. I really want to embody the writer persona. Make a cup of tea, but on my glasses and type away at my typewriter.
-ll
+In terms of the actual writing, I use Obsidian. Obsidian is a great tool to write markdown files. The editor itself seemed a bit, too technical for me. I really want to embody the writer persona. Make a cup of tea, put on my glasses and type away at my typewriter.
+
 So I built an Obsidian plugin that transforms my Obsidian into a *writer friendly* app.
