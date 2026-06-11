@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/exploring-vs-code-dev-containers.md",
+                "file": "_drafts/Exploring VS Code Dev Containers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "exploring-vs-code-dev-containers"
+              "title": "Exploring VS Code Dev Containers"
             }
           }
         ]
@@ -190,9 +190,9 @@
   },
   "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
-    "_drafts/My First Laravel App.md",
-    "_drafts/exploring-vs-code-dev-containers.md",
     "_posts/2026-05-23-Hello World.md",
+    "_drafts/Exploring VS Code Dev Containers.md",
+    "_drafts/My First Laravel App.md",
     "_posts/2026-05-23-first-laravel-app.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_posts/2026-04-28-first-laravel-app.md",
