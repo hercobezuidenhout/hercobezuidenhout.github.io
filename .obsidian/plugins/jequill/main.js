@@ -89,6 +89,7 @@ function createPostService(app) {
     const blogFiles = markdownFiles.filter(
       (file) => file.path.startsWith("_drafts") || file.path.startsWith("_posts")
     );
+    console.log(markdownFiles, blogFiles);
     const posts = [];
     for (const file of blogFiles) {
       const isDraft = file.path.startsWith("_drafts");
@@ -909,13 +910,14 @@ var PropertiesView = class extends import_obsidian3.ItemView {
       const updates = {};
       const inputs = container.querySelectorAll("input[data-property-key]");
       inputs.forEach((input) => {
-        const key = input.getAttribute("data-property-key");
-        const type = input.getAttribute("data-property-type");
+        const htmlInput = input;
+        const key = htmlInput.getAttribute("data-property-key");
+        const type = htmlInput.getAttribute("data-property-type");
         if (key) {
           if (type === "array") {
-            updates[key] = input.value.split(",").map((v) => v.trim()).filter((v) => v);
+            updates[key] = htmlInput.value.split(",").map((v) => v.trim()).filter((v) => v);
           } else {
-            updates[key] = input.value;
+            updates[key] = htmlInput.value;
           }
         }
       });
@@ -931,6 +933,7 @@ var PropertiesView = class extends import_obsidian3.ItemView {
       const content = await this.app.vault.read(this.currentFile);
       const newContent = updateMultipleProperties(content, updates);
       await this.app.vault.modify(this.currentFile, newContent);
+      await this.gitService.commitAndPush(`save: ${this.currentFile.name}`);
       new import_obsidian3.Notice("Properties updated");
     } catch (error) {
       console.error("Failed to save properties:", error);

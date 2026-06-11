@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Laravel App
-date: 2026-04-28 19:00:00 +0200
+date: 
 categories: web
 ---
 For the past 5 years, I have been a React developer. On projects at work, I have built React libraries, micro-frontends with Webpack module federation and web apps with NextJS. 
