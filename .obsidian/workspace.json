@@ -11,14 +11,10 @@
             "id": "c22a6eb0ca6938a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_drafts/first-laravel-app.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "first-laravel-app"
+              "title": "New tab"
             }
           }
         ]
@@ -189,6 +185,7 @@
   },
   "active": "f3fd52b112ca989a",
   "lastOpenFiles": [
+    "_posts/2026-06-11-Exploring VS Code Dev Containers.md",
     "_posts/2026-05-23-Hello World.md",
     "_drafts/first-laravel-app.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
