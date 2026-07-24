@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/new-post-1112742.md",
+                "file": "_posts/2026-07-24-new-post-1112742.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "new-post-1112742"
+              "title": "2026-07-24-new-post-1112742"
             }
           }
         ]
@@ -188,11 +188,11 @@
       "jequill:Jequill": false
     }
   },
-  "active": "c22a6eb0ca6938a9",
+  "active": "6fea404c936083fd",
   "lastOpenFiles": [
     "_drafts/My First Laravel App.md",
     "_posts/2026-06-11-Exploring VS Code Dev Containers.md",
-    "_drafts/new-post-1112742.md",
+    "_posts/2026-07-24-new-post-1112742.md",
     "_posts/2026-05-23-Hello World.md",
     "_drafts/new-post-1111402.md",
     "_drafts/new-post-103503.md",
