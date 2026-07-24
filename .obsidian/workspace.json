@@ -11,10 +11,14 @@
             "id": "c22a6eb0ca6938a9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_drafts/new-post-103503.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "new-post-103503"
             }
           }
         ]
@@ -71,13 +75,13 @@
             }
           },
           {
-            "id": "645b9f8a5c2e7cea",
+            "id": "6040a4c7d24be236",
             "type": "leaf",
             "state": {
-              "type": "jekyll-blog-view",
+              "type": "jequill-posts-view",
               "state": {},
-              "icon": "newspaper",
-              "title": "Jekyll Blog Manager"
+              "icon": "lucide-file",
+              "title": "Jequill"
             }
           }
         ],
@@ -149,23 +153,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "_drafts/new-post-103503.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of new-post-103503"
             }
           },
           {
-            "id": "f3fd52b112ca989a",
+            "id": "6fea404c936083fd",
             "type": "leaf",
             "state": {
-              "type": "jekyll-properties-view",
+              "type": "jequill-post-details-view",
               "state": {},
               "icon": "settings",
-              "title": "Post Properties"
+              "title": "Post Details"
             }
           }
         ],
@@ -177,17 +181,19 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "jekyll-blog-manager:Jekyll Blog Manager": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "jequill:Jequill": false
     }
   },
-  "active": "f3fd52b112ca989a",
+  "active": "c22a6eb0ca6938a9",
   "lastOpenFiles": [
-    "_posts/2026-06-11-Exploring VS Code Dev Containers.md",
     "_posts/2026-05-23-Hello World.md",
+    "_drafts/new-post-103503.md",
     "_drafts/first-laravel-app.md",
+    "_posts/2026-06-11-Exploring VS Code Dev Containers.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_posts/2026-04-28-first-laravel-app.md",
     "_drafts",

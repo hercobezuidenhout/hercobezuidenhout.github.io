@@ -1,4 +1,6 @@
 {
   "textFontFamily": "Times New Roman",
-  "baseFontSize": 24
+  "baseFontSize": 24,
+  "showRibbon": true,
+  "nativeMenus": false
 }
