@@ -38,6 +38,7 @@ The architecture will be focused on hosted solutions with the option of self-hos
 - **Novu** - Open source notification system. Will use this for push notifications. Can be self-hosted when necessary.
 - **Resend**  - Email service. Will use this to send emails from the application where necessary.
 - **Paystack** - Payment Gateway for South African businesses.
+- **Prisma ORM** - ORM to decouple the app from Supabase database.
 
 There are some smaller dependencies and npm packages which this project will use but these are the main ones.
 
@@ -146,10 +147,23 @@ I now have a basic NextJS scaffold to work with. I still need to clean up some o
 
 A quick landing page and then the first deployment.
 
-I will start by removing the example code that was generated and then installing the first two `npm` modules.
+I will start by removing the example code that was generated and then installing the first three `npm` modules.
 
 1. BaseUI
 2. React Query
+3. Prisma
+
+I installed the above modules.
+
+```bash
+npm i @base-ui/react @tanstack/react-query
+
+npm install prisma tsx @types/pg --save-dev
+
+npm install @prisma/client @prisma/adapter-pg dotenv pg
+
+npx prisma init --output ../app/generated/prisma
+```
 
 ### Design
 
