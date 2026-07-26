@@ -161,5 +161,16 @@ The focus is on growth and team health.
 
 > This also means I am planning a new feature called Growth Plans which will allow a user to set up a growth plan for people in the team and track that plan.
 
+## Built for self-hosting
 
+While I am not targeting enterprise clients, the one thing that does stop enterprise clients from using this is where the data lives. So I will be designing it this time with that in mind.
 
+In the current tech stack, the database can easily be switched to a local version since this project uses Prisma ORM to connect to the database so by simply passing in a different connection string to the environment variables, you have your own database. 
+
+The kicker comes in with Supbase auth and storage.
+
+So instead of having the app rely on Supabase auth and storage directly, I am going to extract that logic into an API using NextJS `route.ts` files which will be called by both the frontend and server actions. This will enable developers to specify their own APIs in the environment variables when self-hosting.
+
+Self-hosting will also be enabled through a Docker image.
+
+Of course.
