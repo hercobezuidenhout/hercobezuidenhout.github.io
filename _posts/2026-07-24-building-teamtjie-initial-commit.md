@@ -140,8 +140,19 @@ git add .
 git commit -m "init: Teamtjie"
 ```
 
-### Whats next
+### Adding Teamtjie touch
 
 I now have a basic NextJS scaffold to work with. I still need to clean up some of the generated files and code. Then it is time to install the project's first dependencies being Base UI.
 
 A quick landing page and then the first deployment.
+
+I will start by removing the example code that was generated and then installing the first two `npm` modules.
+
+1. BaseUI
+2. React Query
+
+### Design
+
+The new Teamtjie will have a different design. Playing around with some things.
+
+![[TeamtjieNewDesign.png]]
