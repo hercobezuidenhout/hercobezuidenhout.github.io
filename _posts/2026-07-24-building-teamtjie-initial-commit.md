@@ -155,4 +155,9 @@ I will start by removing the example code that was generated and then installing
 
 The new Teamtjie will have a different design. Playing around with some things.
 
-![[TeamtjieNewDesign.png]]
+![TeamtjieNewDesign.png](assets/TeamtjieNewDesign.png)
+
+The focus is on growth and team health.
+
+> This also means I am planning a new feature called Growth Plans which will allow a user to set up a growth plan for people in the team and track that plan.
+
