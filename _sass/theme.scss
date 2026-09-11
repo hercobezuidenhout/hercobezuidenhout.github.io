@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+// Forward partials so consumers of "minima" get everything they need.
+@forward "theme/variables";
+@forward "theme/base";
+@forward "theme/layout";
+@forward "theme/syntax-highlighting";
