@@ -3,5 +3,10 @@
 // Forward partials so consumers of "minima" get everything they need.
 @forward "theme/variables";
 @forward "theme/base";
-@forward "theme/layout";
 @forward "theme/syntax-highlighting";
+
+// Forward layout
+@forward "layout/site-header";
+@forward "layout/site-footer";
+@forward "layout/page-content";
+@forward "layout/posts";

@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Herco Bezuidenhout
+title: Bits & Beanies
+author: Herco Bezuidenhout
 email: herco.bezuidenhout@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! I am a senior software engineer based in Cape Town with a passion for building products.

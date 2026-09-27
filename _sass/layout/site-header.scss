@@ -1,0 +1,92 @@
+@use "sass:color";
+@use "../theme/variables" as *;
+@use "../theme/base" as *;
+
+header[role="banner"] {
+  position: sticky;
+  top: 0;
+}
+
+.site-header {
+  background-color: $background-color;
+  display: flex;
+  padding: $spacing-sm 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-brand {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.site-brand img {
+  width: 45px;
+  border-radius: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.navbar .menu-icon {
+  display: none;
+}
+
+.navbar .close-menu-icon {
+  display: none;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $background-color;
+  padding: $spacing-md;
+
+  transform: translateX(100%);
+  transition: transform 300ms ease;
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.drawer nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: $spacing-md;
+  gap: $spacing-sm;
+}
+
+.nav-container.show-drawer .navbar {
+  display: none;
+}
+
+.nav-container.show-drawer .drawer {
+  transform: translateX(0);
+}
+
+@include media-query($on-palm) {
+  .navbar .page-link {
+    display: none;
+  }
+
+  .navbar .menu-icon {
+    display: block;
+  }
+
+  .site-brand img {
+    width: 35px;
+  }
+
+  .site-brand .site-title {
+    display: none;
+  }
+}
