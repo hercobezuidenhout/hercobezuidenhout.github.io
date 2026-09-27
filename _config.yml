@@ -54,3 +54,4 @@ plugins:
 #   - vendor/ruby/
 
 permalink: /:title/
+show_excerpts: true

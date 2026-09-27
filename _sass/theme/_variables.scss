@@ -1,4 +1,5 @@
 @use "sass:color";
+@use "sass:map";
 
 // Define defaults for each variable.
 
@@ -12,17 +13,51 @@ $spacing-sm: 12px !default;
 $spacing-md: 18px !default;
 $spacing-lg: 24px !default;
 
-$text-color: #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color: #2a7ae2 !default;
+/*
+* Colors
+*/
 
-$grey-color: #828282 !default;
-$grey-color-light: color.scale($grey-color, $lightness: 81.6%) !default;
-$grey-color-dark: color.scale($grey-color, $lightness: -49.0384615385%) !default;
+$themes: (
+ light: (
+   text: #080d0a,
+   background: #e8e7e3,
+   primary: #a0fdde,
+   secondary: #03a56f,
+   accent: #048656,
+   code-background: #eef,
+   text-grey: #80807d
+ ),
+ dark: (
+   text: #f2f7f4,
+   background: #1c1b17,
+   primary: #025f40,
+   secondary: #5afcc6,
+   accent: #097a50,
+   code-background: #101c18,
+   text-grey: #666254
+ ),
+);
+
+:root {
+  @each $name, $value in map.get($themes, light) {
+    --#{$name}-color: #{$value};
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @each $name, $value in map.get($themes, dark) {
+      --#{$name}-color: #{$value};
+    }
+  }
+}
+
+/**
+* Other
+*/
 
 $table-text-align: left !default;
 
-// Width of the content area
 $content-width: 800px !default;
 
 $on-palm: 600px !default;

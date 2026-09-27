@@ -8,7 +8,7 @@ header[role="banner"] {
 }
 
 .site-header {
-  background-color: $background-color;
+  background-color: var(--background-color);;
   display: flex;
   padding: $spacing-sm 0;
   justify-content: space-between;
@@ -46,7 +46,7 @@ header[role="banner"] {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: $background-color;
+  background-color: var(--background-color);;
   padding: $spacing-md;
 
   transform: translateX(100%);

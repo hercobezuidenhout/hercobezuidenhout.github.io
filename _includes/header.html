@@ -12,7 +12,7 @@
       <div class="nav-container">
         <nav class="navbar">
           <button class="icon-button menu-icon">
-              <img class="svg-icon" src="/assets/icons/bars.svg" />
+              <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect x="1" y="11" width="22" height="2"/><rect x="1" y="19" width="22" height="2"/><rect x="1" y="3" width="22" height="2"/></svg>
           </button>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -20,12 +20,15 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <!-- <a class="icon-button" ref="{{ "/feed.xml" | relative_url }}">
+            <img class="svg-icon" src="/assets/icons/rss.svg" />
+          </a> -->
         </nav>
         <div class="drawer">
           <div class="drawer-header">
             <h3>Menu</h3>
             <button class="icon-button close-menu-icon">
-                <img class="svg-icon" src="/assets/icons/window-close-solid.svg" />
+                <svg class="svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m22,2v-1H2v1h-1v20h1v1h20v-1h1V2h-1Zm-4,7h-1v1h-1v1h-1v2h1v1h1v1h1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-2v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h1v-1h1v-1h1v-2h-1v-1h-1v-1h-1v-1h1v-1h1v-1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v1h1v1h1v1Z"/></svg>
             </button>
           </div>
 

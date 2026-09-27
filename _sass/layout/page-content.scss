@@ -12,27 +12,72 @@
 
 .page-heading {
   @include relative-font-size(2);
+
+  font-weight: bold;
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(2);
+
+  margin-bottom: $spacing-lg;
 }
 
 .post-list {
   margin-left: 0;
   list-style: none;
+  display: flex;
+  flex-direction: column;
 
   > li {
-    margin-bottom: $spacing-sm;
+    padding: $spacing-lg * 1.5;
+    border: 1px solid transparent;
+    border-bottom: 1px solid var(--accent-color);
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:hover {
+      cursor: pointer;
+      background-color: color-mix(in srgb, var(--accent-color) 15%, transparent);
+      border-color: var(--accent-color);
+      border: 1px solid var(--accent-color);
+      border-radius: 8px;
+    }
+
+    &:has(+ li:hover) {
+      border-bottom-color: transparent;
+    }
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: var(--accent-color);
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+}
+
+.post-excerpt {
+  color: var(--text-grey-color);
+}
+
+@include media-query($on-palm) {
+  .post-list {
+
+    > li {
+      padding: $spacing-md 0;
+      gap: $spacing-sm;
+    }
+  }
 }

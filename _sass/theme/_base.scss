@@ -18,8 +18,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: var(--text-color);;
+  background-color: var(--background-color);;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: var(--text-color);;
   text-decoration: none;
 
   &:visited {
-    color: color.adjust($brand-color, $lightness: -15%);
+    color: var(--text-color);;
   }
 
   &:hover {
-    color: $text-color;
+    color: var(--text-color);;
     text-decoration: underline;
   }
 
@@ -135,8 +135,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: var(--secondary-color);;
+  border-left: 4px solid var(--secondary-color);
   padding-left: $spacing-sm * 0.5;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
@@ -147,33 +147,32 @@ blockquote {
   }
 }
 
+ /**
+  * Code formatting
+  */
+ pre,
+ code {
+   @include relative-font-size(0.9375);
+   border: 1px solid var(--secondary-color);
+   border-radius: 3px;
+   background-color: var(--code-background);
+ }
 
+ code {
+   padding: 1px 5px;
+ }
 
-/**
- * Code formatting
- */
-pre,
-code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
+ pre {
+   padding: 8px 12px;
+   overflow-x: auto;
 
-code {
-  padding: 1px 5px;
-}
-
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
-
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
+   > code {
+     border: 0;
+     padding-right: 0;
+     padding-left: 0;
+     background-color: transparent;
+   }
+ }
 
 
 
@@ -218,7 +217,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: var(--accent-color);
     vertical-align: text-top;
 }
 
@@ -237,24 +236,24 @@ table {
   margin-bottom: $spacing-sm;
   width: 100%;
   text-align: $table-text-align;
-  color: color.adjust($text-color, $lightness: 18%);
+  color: var(--text-color);;
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid var(--secondary-color);
   tr {
     &:nth-child(even) {
-      background-color: color.adjust($grey-color-light, $lightness: 6%);
+      background-color: var(--secondary-color);
     }
   }
   th, td {
     padding: ($spacing-sm * 0.3333333333) ($spacing-sm * 0.5);
   }
   th {
-    background-color: color.adjust($grey-color-light, $lightness: 3%);
-    border: 1px solid color.adjust($grey-color-light, $lightness: -4%);
-    border-bottom-color: color.adjust($grey-color-light, $lightness: -12%);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-bottom-color: var(--secondary-color);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid var(--secondary-color);
   }
 }
 
@@ -266,4 +265,8 @@ button {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+button.icon-button {
+  color: var(--text-color);
 }
