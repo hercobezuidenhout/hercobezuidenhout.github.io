@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World
-date: 2026-05-12
+date: 2025-11-23
 categories: []
 tags: []
 excerpt: A first hello to the world of blogging, reflecting on writing, software, personal projects, AI, and the desire to keep learning.
