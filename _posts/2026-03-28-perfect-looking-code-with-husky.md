@@ -1,6 +1,6 @@
 ---
 title: Perfect looking code with Husky
-date: 2026-09-28
+date: 2026-03-28
 categories:
 tags: []
 layout: post
