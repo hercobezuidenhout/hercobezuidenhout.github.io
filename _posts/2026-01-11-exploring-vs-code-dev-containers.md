@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploring VS Code Dev Containers
-date: 2026-06-11
+date: 2026-01-11
 excerpt: Exploring VS Code Dev Containers to isolate project dependencies, simplify development environments, and finally understand why Docker is useful.
 categories: []
 tags: []
