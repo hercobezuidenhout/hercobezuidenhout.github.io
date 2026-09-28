@@ -1,6 +1,6 @@
 ---
-title: Welcome to Jekyll!
-date: 2025-10-11
+title: Perfect looking code with Husky
+date: 2026-09-28
 categories:
 tags: []
 layout: post
