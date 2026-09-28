@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_drafts/perfect-looking-code-with-husky.md",
+                "file": "_posts/2026-09-28-my-first-laravel-app.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perfect-looking-code-with-husky"
+              "title": "2026-09-28-my-first-laravel-app"
             }
           }
         ]
@@ -191,11 +191,11 @@
   },
   "active": "1db3b685a866a1fd",
   "lastOpenFiles": [
+    "_posts/2026-09-28-perfect-looking-code-with-husky.md",
     "assets/images/adorable-husky.jpg",
-    "_drafts/perfect-looking-code-with-husky.md",
     "assets/images",
     "_templates/Post.md",
-    "_posts/2026-09-28-My First Laravel App.md",
+    "_posts/2026-09-28-my-first-laravel-app.md",
     "_drafts/2026-07-26-building-teamtjie-initial-commit.md",
     "_drafts/new-post-1335351.md",
     "_posts/2026-07-26-building-teamtjie-initial-commit.md",
