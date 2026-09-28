@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My First Laravel App
-date: 2026-08-28
+date: 2026-02-24
 categories: web
 excerpt: I spent a lot of time working on Node projects and recently discovered Laravel which is a PHP framework used to build web applications.
 ---
