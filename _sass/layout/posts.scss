@@ -22,6 +22,14 @@
 .post-content {
   margin-bottom: $spacing-sm;
 
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+  }
+
+  p, ul, ol, dl, blockquote, pre, figure {
+    margin-bottom: $spacing-md;
+  }
+
   h2 {
     @include relative-font-size(2);
 
