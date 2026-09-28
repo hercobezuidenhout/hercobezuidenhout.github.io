@@ -4,6 +4,7 @@ date: 2025-10-11
 categories:
 tags: []
 layout: post
+excerpt: Git hooks are really cool but can be difficult manage and share with the team. Husky is a tool that tries to solve exactly that.
 ---
 I work in a team with about 200 developers pushing commits to a repository. We have linting set up on the repo and there are unit tests in place as well but what I have found is that it can be pretty challenging to enforce proper formatting.
 
