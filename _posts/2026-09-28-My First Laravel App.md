@@ -24,7 +24,7 @@ With a NodeJS project, you have a `package.json` file and you run `npm install x
 
 PHP offers something similar. PHP offers you `composer`.
 
-So to install Laravel project, I ran the below command:
+So to install Laravel, I ran the below command:
 
 ```
 composer global require laravel/installer
@@ -40,13 +40,11 @@ laravel new example-app
 
 With Laravel, there are many folders and files from the start which was a bit overwhelming. Spending some time in that guide has made it a bit easier to navigate.
 
-### MVC
-
 Starting from the top, there is the `app` folder. Within this folder, there are `controllers`, `models`,  `policies` and `providers`.
 
 > I am not sure what `providers` are. I haven't gotten that far yet.
 
-This Laravel project works with MVC pattern which is:
+This Laravel project works with the MVC pattern which is:
 
 - **Models** - Handle business and data logic
 - **View** - The actual HTML the user sees
@@ -143,7 +141,7 @@ The clean stack for Artisans and agents
 
 ***Disgusting.***
 
-## Last sip of tea
+## Conclusion
 
 There is a lot more that I can do with Laravel and I look forward to building my first project in Laravel. I plan to build something inspired by [GoodBudget](https://goodbudget.com/).
 
