@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-09-28-My First Laravel App.md",
+                "file": "_drafts/perfect-looking-code-with-husky.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-09-28-My First Laravel App"
+              "title": "perfect-looking-code-with-husky"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -84,8 +86,7 @@
               "title": "Jequill"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,15 +189,19 @@
       "jequill:Jequill": false
     }
   },
-  "active": "6fea404c936083fd",
+  "active": "1db3b685a866a1fd",
   "lastOpenFiles": [
+    "assets/images/adorable-husky.jpg",
+    "_drafts/perfect-looking-code-with-husky.md",
+    "assets/images",
+    "_templates/Post.md",
+    "_posts/2026-09-28-My First Laravel App.md",
     "_drafts/2026-07-26-building-teamtjie-initial-commit.md",
     "_drafts/new-post-1335351.md",
     "_posts/2026-07-26-building-teamtjie-initial-commit.md",
     "assets.md",
     "assets",
     "assets/TeamtjieNewDesign.png",
-    "_posts/2026-09-28-My First Laravel App.md",
     "_posts/2026-06-11-Exploring VS Code Dev Containers.md",
     "_posts/2026-05-23-Hello World.md",
     "_drafts/new-post-1111402.md",
@@ -205,7 +210,6 @@
     "_posts/2025-10-11-welcome-to-jekyll.md",
     "_posts/2026-04-28-first-laravel-app.md",
     "_drafts",
-    "_templates/Post.md",
     "_templates",
     "about.md",
     "index.md"
