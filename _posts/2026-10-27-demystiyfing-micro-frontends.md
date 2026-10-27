@@ -3,6 +3,7 @@ title: Demystifying Micro-Frontends - Taking a look under the hood of what makes
 date: 2026-10-14
 categories: []
 tags: []
+layout: post
 ---
 For the past 6 years (5 years and 10 months to be exact) I have been working on projects which involve building micro-frontends in one way or another. Micro-frontends can seem like a bit of a black box implementation or magic. Teams and developers often times struggle to understand what is happening and in my experience, this is because of a lack of understanding how modern frontends are actually put together.
 

@@ -191,10 +191,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6fea404c936083fd",
+  "active": "1db3b685a866a1fd",
   "lastOpenFiles": [
-    "assets/remote_entry.png",
+    "_posts/2026-03-28-perfect-looking-code-with-husky.md",
     "_posts/2026-10-27-demystiyfing-micro-frontends.md",
+    "assets/remote_entry.png",
     "assets/federation_manifest.png",
     "assets/federation_config.png",
     "assets/module_federation_diagram.png",
@@ -204,13 +205,11 @@
     "assets/scaling_teams.png",
     "assets/angular_tree_snippet.png",
     "assets/angular_arch.png",
-    "assets/webpack_tree_snippet.png",
     "_excalidraw/Drawing 2026-10-27 12.59.12.excalidraw.md",
     "_excalidraw",
     "_drafts",
     "_drafts/new-post-1335351.md",
     "assets/images",
-    "_posts/2026-03-28-perfect-looking-code-with-husky.md",
     "_posts/2026-02-24-my-first-laravel-app.md",
     "_posts/2026-01-11-exploring-vs-code-dev-containers.md",
     "_posts/2025-11-23-hello-world.md",
