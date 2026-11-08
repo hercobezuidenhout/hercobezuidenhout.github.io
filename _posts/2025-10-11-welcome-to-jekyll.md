@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-10-11 17:32:12 +0200
+title: Welcome to Jekyll!
+date: 2026-11-8 17:32:12 +0200
 excerpt: A quick introduction to Jekyll posts, covering file naming, front matter, local development, code snippets, and useful documentation resources.
 categories: jekyll update
 ---
