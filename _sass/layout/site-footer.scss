@@ -22,7 +22,7 @@
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: var(var(--secondary-color));;
+  color: var(var(--secondary-color));
   margin-left: -$spacing-sm * 0.5;
   @extend %clearfix;
 }

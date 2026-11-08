@@ -18,8 +18,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: var(--text-color);;
-  background-color: var(--background-color);;
+  color: var(--text-color);
+  background-color: var(--background-color);
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -109,15 +109,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: var(--text-color);;
+  color: var(--accent-color);
   text-decoration: none;
 
   &:visited {
-    color: var(--text-color);;
+    color: var(--text-color);
   }
 
   &:hover {
-    color: var(--text-color);;
+    color: var(--text-color);
     text-decoration: underline;
   }
 
@@ -135,7 +135,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: var(--secondary-color);;
+  color: var(--secondary-color);
   border-left: 4px solid var(--secondary-color);
   padding-left: $spacing-sm * 0.5;
   @include relative-font-size(1.125);
@@ -236,7 +236,7 @@ table {
   margin-bottom: $spacing-sm;
   width: 100%;
   text-align: $table-text-align;
-  color: var(--text-color);;
+  color: var(--text-color);
   border-collapse: collapse;
   border: 1px solid var(--secondary-color);
   tr {
