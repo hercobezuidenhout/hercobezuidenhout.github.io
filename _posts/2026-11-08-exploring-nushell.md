@@ -1,6 +1,6 @@
 ---
 title: Exploring Nushell
-date: 2026-11-11
+date: 2026-11-08
 categories: []
 tags: []
 layout: post
