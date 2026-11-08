@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-10-27-demystiyfing-micro-frontends.md",
+                "file": "_drafts/exploring-nushell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-27-demystiyfing-micro-frontends"
+              "title": "exploring-nushell"
             }
           }
         ]
@@ -192,6 +192,9 @@
   },
   "active": "1db3b685a866a1fd",
   "lastOpenFiles": [
+    "_templates/Post.md",
+    "_drafts/exploring-nushell.md",
+    "_posts/2026-10-27-demystiyfing-micro-frontends.md",
     "_posts/2026-03-28-perfect-looking-code-with-husky.md",
     "assets/webpack_tree_snippet.png",
     "assets/webpack_config_code_snippet.png",
@@ -203,14 +206,12 @@
     "assets/module_federation_diagram.png",
     "assets/module_federation.png",
     "assets/html_with_separate_js_files.png",
-    "_posts/2026-10-27-demystiyfing-micro-frontends.md",
     "_excalidraw/Drawing 2026-10-27 12.59.12.excalidraw.md",
     "_excalidraw",
     "_posts/2026-02-24-my-first-laravel-app.md",
     "_posts/2026-01-11-exploring-vs-code-dev-containers.md",
     "_posts/2025-11-23-hello-world.md",
     "_posts/2025-10-11-welcome-to-jekyll.md",
-    "_templates/Post.md",
     "assets/images",
     "_drafts/2026-07-26-building-teamtjie-initial-commit.md",
     "_drafts/new-post-1335351.md",
